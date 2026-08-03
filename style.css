@@ -206,7 +206,8 @@ nav ul li a:hover, nav ul li a.ativo {
     padding: 60px;
     border-radius: 12px;
     box-shadow: var(--sombra-card);
-    border: 1px solid var(--cinza-borda);
+    border: 5px solid var(--cinza-borda);
+    border-color: var(--dourado);
 }
 
 .institucional-texto {
@@ -730,4 +731,13 @@ a.card-atividade:hover .card-imagem img {
 a.card-atividade:hover .btn-card {
     gap: 12px;
     color: #a47e1e;
+}
+
+/* Linha Divisória Dourada */
+.linha-dourada {
+    border: none;
+    height: 3px;
+    background-color: var(--dourado, #c59b27);
+    margin: 0px auto;
+    width: 100%;
 }
