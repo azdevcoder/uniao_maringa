@@ -613,10 +613,10 @@ footer p:last-child {
 
 .mvv-valores-list li {
     font-size: 0.95rem;
-    color: var(--texto-padrao, #334155);
+    color: var(--texto-padrao);
     margin-bottom: 10px;
     display: flex;
-    align-items: center;
+    align-items: flex-start; /* ← Aqui está a mudança */
     gap: 8px;
     font-weight: 500;
 }
