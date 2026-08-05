@@ -742,3 +742,9 @@ a.card-atividade:hover .btn-card {
     margin: 0px auto;
     width: 100%;
 }
+
+.fachada {
+    border-radius: 5%;
+    max-width: 80%;
+
+}
